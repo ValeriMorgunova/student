@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.arrow {
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.slider {
+  display: flex;
+  width: 300px;
+  overflow: hidden;
+  margin: 0 10px;
+
+}
+
+.slider__list {
+  display: flex;
+  list-style: none;
+  right: 0;
+  position: relative;
+  transition: right .3s ease;
+}
+
+.slider__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  background: #FFE4B5;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
